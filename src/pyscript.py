@@ -77,7 +77,7 @@ def two_sample_proportions_ztest(sample_success_a, sample_size_a,sample_success_
     alpha = 0.017
     successes = np.array([sample_success_a, sample_success_b])
     samples = np.array([sample_size_a, sample_size_b])
-    z_stat, p_value = proportions_ztest(count=successes, nobs=samples, alternative='larger')
+    z_stat, p_value = proportions_ztest(count=successes, nobs=samples, alternative='two-sided')
     # report
     print('alpha: %0.3f, z_stat: %0.3f, p_value: %0.3f' % (alpha,z_stat, p_value))
     if p_value > alpha:
@@ -148,7 +148,7 @@ if __name__ == "__main__":
  'Female US Population Crude Rate per 100,000',
  'Female US Population Age Adjusted Rate per 100,000']
 
-#All columns from df_national
+ #All columns from df_age
 ['Year',
  'Age Group',
  'Veteran Suicide Deaths',
@@ -160,8 +160,28 @@ if __name__ == "__main__":
  'Age Group 2',
  'Female Veteran Suicide Deaths',
  'Female Veteran Population Estimate',
- 'Female Veteran Crude Rate per 100,000',
- 'Veteran Population Estimate in millions']
+ 'Female Veteran Crude Rate per 100,000']
 
-#Columns to keep
-lst_keep_column = ['Occur Date', 'UCR Literal']
+ #Columns to keep from df_national
+lst_keep_column_national = ['Year',
+ 'Veteran Suicide Deaths',
+ 'Veteran Population Estimate',
+ 'Veteran Crude Rate per 100,000',
+ 'Male Veteran Suicide Deaths',
+ 'Male Veteran Population Estimate',
+ 'Male Veteran Crude Rate per 100,000',
+ 'Female Veteran Suicide Deaths',
+ 'Female Veteran Population Estimate',
+ 'Female Veteran Crude Rate per 100,000',
+ 'Non-Veteran Suicide Deaths',
+ 'Non-Veteran Population Estimate',
+ 'Non-Veteran Crude Rate per 100,000',
+ 'US Population Suicide Deaths',
+ 'US Population Population Estimate',
+ 'US Population Crude Rate per 100,000']
+
+ #Columns to keep from df_age
+lst_keep_column_age = ['Year',
+ 'Age Group',
+ 'Veteran Suicide Deaths',
+ 'Veteran Population Estimate']
