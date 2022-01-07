@@ -6,7 +6,7 @@ Just from our unit, there were 4 suicides in the past year.
 
 Suicide is preventable yet sadly, it is the second-leading cause of death for post-9/11 veterans.
 
-To inform the magnitude of this issue and bring awareness of the problems facing in the military organization, I will be performing an analysis 
+To inform the magnitude of this issue and bring awareness, I will be performing an analysis 
 of the national veteran suicide data (from 2001-2019) published by the department of veteran affairs.
 
 ## Data Cleaning
