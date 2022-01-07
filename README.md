@@ -1,4 +1,4 @@
-# Suicide Among Veterans Powerpoint
+# Suicide Among Veterans
 ## Introduction
 Suicide is a major problem in both the general population and the military community.
 
