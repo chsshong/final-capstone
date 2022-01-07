@@ -2,8 +2,6 @@
 ## Introduction
 Suicide is a major problem in both the general population and the military community.
 
-Just from our unit, there were 4 suicides in the past year.
-
 Suicide is preventable yet sadly, it is the second-leading cause of death for post-9/11 veterans.
 
 To inform the magnitude of this issue and bring awareness, I will be performing an analysis 
